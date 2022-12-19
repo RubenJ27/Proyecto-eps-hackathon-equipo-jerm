@@ -1,0 +1,26 @@
+body{
+    background:#F3F5F5 
+}
+
+#uno, #dos,#tres {
+    /* max-width: 1600px; */
+border-radius: 7px;
+padding: 2em;
+box-shadow: 2px 2px   5px  #999;
+background: white;
+
+}
+#uno, #dos {
+opacity: 1;
+transition: opacity 1s; 
+}
+
+#uno.fade {
+opacity: 0;
+}
+#dos.fade {
+    opacity: 0;
+    }
+.m{
+margin-top: 5em;
+}
